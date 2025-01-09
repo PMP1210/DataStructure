@@ -1,6 +1,6 @@
 #include<stdio.h>
 void swap(int,int);
-void main()
+int main()
 {
 	int a,b;
 	
@@ -10,7 +10,7 @@ void main()
 	printf("\nOriginal values A=%d B=%d",a,b);
 	swap(a,b);
 	
-	
+	return 0;
 }
 
 void swap(int x,int y)
@@ -20,5 +20,5 @@ void swap(int x,int y)
 	x=y;
 	y=c;
 	
-	printf("\nSwaped vlues A=%d B=%d",x,y);
+	printf("\nSwapped values A=%d B=%d",x,y);
 }
